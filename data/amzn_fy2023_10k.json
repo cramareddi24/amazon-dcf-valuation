@@ -1,0 +1,36 @@
+{
+  "company": "Amazon.com, Inc.",
+  "ticker": "AMZN",
+  "fiscal_year_end": "2023-12-31",
+  "units": "USD millions (except per share)",
+  "source": "Amazon Form 10-K for fiscal year 2023, filed February 2024 (SEC EDGAR, CIK 1018724)",
+  "income_statement": {
+    "net_sales": 574785,
+    "operating_income": 36852,
+    "interest_expense": 3182,
+    "income_before_income_taxes": 37557,
+    "provision_for_income_taxes": 7120,
+    "net_income": 30425
+  },
+  "cash_flow_statement": {
+    "depreciation_and_amortization": 48663,
+    "operating_cash_flow": 84946,
+    "free_cash_flow": 36813,
+    "note": "Free cash flow as defined by Amazon: operating cash flow less purchases of property and equipment, net of proceeds from sales and incentives."
+  },
+  "balance_sheet": {
+    "cash_and_cash_equivalents": 73387,
+    "marketable_securities": 13393,
+    "long_term_debt_face_value_incl_current": 67182,
+    "long_term_lease_liabilities": 77297,
+    "total_stockholders_equity": 201875
+  },
+  "debt_maturities": {
+    "principal_due_2024": 8500,
+    "principal_and_interest_due_2024": 10616
+  },
+  "shares": {
+    "diluted_weighted_average": 10492,
+    "outstanding_at_year_end": 10383
+  }
+}

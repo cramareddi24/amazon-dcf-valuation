@@ -1,0 +1,27 @@
+{
+  "notes": "Everything in this file is an assumption, not a reported figure. Change these to test different views.",
+  "market": {
+    "valuation_date": "Fall 2024",
+    "share_price": 185.00,
+    "share_price_note": "Approximate AMZN price in fall 2024. Used for market-value WACC weights and to compare against the model's value.",
+    "risk_free_rate": 0.038,
+    "risk_free_note": "Approximate 10-year US Treasury yield, fall 2024",
+    "beta": 1.15,
+    "equity_risk_premium": 0.055
+  },
+  "projection": {
+    "years": [2024, 2025, 2026, 2027, 2028],
+    "revenue_growth": [0.11, 0.10, 0.10, 0.09, 0.08],
+    "ebit_margin": [0.090, 0.100, 0.110, 0.120, 0.125],
+    "da_pct_revenue": 0.085,
+    "capex_pct_revenue": [0.105, 0.100, 0.095, 0.090, 0.090],
+    "nwc_change_pct_incremental_revenue": 0.0,
+    "nwc_note": "Amazon runs negative working capital (customers pay before suppliers are paid), so growth doesn't tie up cash. Set to 0 to stay conservative.",
+    "tax_rate": "effective",
+    "terminal_growth": 0.03
+  },
+  "sensitivity": {
+    "wacc_range": [0.080, 0.085, 0.090, 0.095, 0.100, 0.105, 0.110],
+    "terminal_growth_range": [0.020, 0.025, 0.030, 0.035, 0.040]
+  }
+}
